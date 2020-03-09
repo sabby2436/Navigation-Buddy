@@ -1,0 +1,39 @@
+* {
+  box-sizing: border-box;
+}
+
+.box {
+  background-image: linear-gradient(#3C5ED7, #2FB2BA);
+  padding: 50px;
+}
+
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+p, h2 {
+  color: white !important;
+  font-family: 'Montserrat', sans-serif;
+  letter-spacing: 0.1em;
+}
+
+p {
+  font-size: 28px;
+  letter-spacing: 0.1em;
+  color: white;
+}
+
+.login-page {
+  text-align: center;
+  padding: 100px 0;
+}
+
+.spacing {
+  padding-bottom: 50px;
+}
+
+.well {
+  padding: 0 !important;
+}
